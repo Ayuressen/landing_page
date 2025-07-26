@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuressen – Botanical Handcrafted Beauty</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+    <style>
+      :root {
+        --ayu-green: #1d4b2c;
+        --ayu-bg: #f6f4ee;
+        --ayu-accent: #2d5a27;
+        --ayu-muted: #8b7355;
+        --ayu-label: #4e6b50;
+        --ayu-light: #e9ede4;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--ayu-bg);
+        color: var(--ayu-green);
+      }
+      .ayu-logo {
+        width: 220px;
+        max-width: 90vw;
+        margin: 0 auto 1rem auto;
+        display: block;
+      }
+      .ayu-tagline {
+        color: var(--ayu-green);
+        font-size: 1rem;
+        letter-spacing: 0.15em;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+      }
+      .md-shape-corner-large {
+        border-radius: 16px;
+      }
+      .md-shape-corner-medium {
+        border-radius: 12px;
+      }
+      .md-shape-corner-small {
+        border-radius: 8px;
+      }
+      .action-card {
+        transition: all 0.3s ease;
+        background: #fff;
+        border: 1px solid var(--ayu-light);
+      }
+      .action-card:hover {
+        background: var(--ayu-light);
+        box-shadow: 0 2px 8px rgba(29,75,44,0.08);
+        border-color: var(--ayu-green);
+      }
+      .ayu-label {
+        background: var(--ayu-green);
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0.25rem 0.75rem;
+        border-radius: 8px;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        display: inline-block;
+      }
+      .ayu-label-accent {
+        background: var(--ayu-label);
+      }
+      .ayu-label-muted {
+        background: var(--ayu-muted);
+      }
+      .ayu-label-light {
+        background: #d6e3d3; /* More visible light green shade */
+        color: var(--ayu-green);
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0.25rem 0.75rem;
+        border-radius: 8px;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        display: inline-block;
+        border: none;
+      }
+      .ayu-section {
+        background: var(--ayu-light);
+        border-radius: 16px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        border: 1px solid var(--ayu-light);
+      }
+      .ayu-card-title {
+        color: var(--ayu-green);
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      .ayu-card-desc {
+        color: var(--ayu-label);
+        font-size: 0.95rem;
+      }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col items-center justify-start" style="background: var(--ayu-bg);">
+      <div class="max-w-sm w-full px-4 py-8">
+        <div class="text-center mb-8">
+          <!-- Logo image -->
+          <img src="logo.png" alt="Ayuressen Logo" class="ayu-logo" style="width:320px; max-width:100vw; margin-bottom:1.5rem;" />
+        </div>
+
+        <div class="ayu-section">
+          <p class="md-typescale-body-large leading-relaxed" style="color: var(--ayu-green);">
+            Crafting pure, gentle skincare with love.<br>
+            Our soaps, solid perfumes, and beauty products are made using natural botanical ingredients.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="ayu-label">Botanical</span>
+            <span class="ayu-label ayu-label-accent">Handmade</span>
+            <span class="ayu-label ayu-label-muted">Cruelty-Free</span>
+            <span class="ayu-label ayu-label-light">Natural</span>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <div class="grid gap-4">
+            <a href="https://instagram.com/ayuressen" target="_blank" rel="noopener noreferrer" class="action-card flex flex-col justify-between h-32 overflow-hidden md-shape-corner-large">
+              <div class="flex items-center gap-4 p-5 flex-1">
+                <div class="w-11 h-11 md-shape-corner-medium flex items-center justify-center" style="background-color: var(--ayu-light);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--ayu-green);"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                </div>
+                <div class="text-left flex-1">
+                  <p class="ayu-card-title">Explore Our Products</p>
+                  <p class="ayu-card-desc">Check out our page & DM us on Instagram to place your order!</p>
+                </div>
+                <div class="pr-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-40" style="color: var(--ayu-label);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg>
+                </div>
+              </div>
+            </a>
+            <a href="https://drive.google.com/your-brochure-link" target="_blank" rel="noopener noreferrer" class="action-card flex flex-col justify-between h-32 overflow-hidden md-shape-corner-large">
+              <div class="flex items-center gap-4 p-5 flex-1">
+                <div class="w-11 h-11 md-shape-corner-medium flex items-center justify-center" style="background-color: var(--ayu-light);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--ayu-green);"><path d="M6 2v6h6V2H6zm0 8v6h6v-6H6zm8-8v6h6V2h-6zm0 8v6h6v-6h-6z"></path></svg>
+                </div>
+                <div class="text-left flex-1">
+                  <p class="ayu-card-title">View Brochure</p>
+                  <p class="ayu-card-desc">Explore our full product range and details</p>
+                </div>
+                <div class="pr-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-40" style="color: var(--ayu-label);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg>
+                </div>
+              </div>
+            </a>
+            <a href="mailto:ayuressen@gmail.com" class="action-card flex flex-col justify-between h-32 overflow-hidden md-shape-corner-large">
+              <div class="flex items-center gap-4 p-5 flex-1">
+                <div class="w-11 h-11 md-shape-corner-medium flex items-center justify-center" style="background-color: var(--ayu-light);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--ayu-green);"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                </div>
+                <div class="text-left flex-1">
+                  <p class="ayu-card-title">Contact Us</p>
+                  <p class="ayu-card-desc">ayuressen@gmail.com</p>
+                </div>
+                <div class="pr-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-40" style="color: var(--ayu-label);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="text-center mt-8 pt-6">
+          <p class="md-typescale-body-small opacity-50" style="color: var(--ayu-label);">
+            Made with 🌿 and love
+          </p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
